@@ -6,15 +6,19 @@ Chart.register(CategoryScale);
 const PieChart = () => {
   const sourceData = [
     {
-      label: "Ads",
+      label: "men's clothing",
       value: 32,
     },
     {
-      label: "Subscription",
+      label: "jewelery",
       value: 45,
     },
     {
-      label: "Ads",
+      label: "electronics",
+      value: 23,
+    },
+    {
+      label: "women's clothing",
       value: 23,
     },
   ];
@@ -32,6 +36,7 @@ const PieChart = () => {
                 "rgba(43,63,229,0.8)",
                 "rgba(250,192,19,0.8)",
                 "rgba(253,135,135,0.8)",
+                "rgba(25,135,135,0.8)",
               ],
               borderRadius: 5,
             },
